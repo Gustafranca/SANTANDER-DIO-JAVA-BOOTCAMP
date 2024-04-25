@@ -1,2 +1,2 @@
 # SANTANDER-DIO-JAVA-BOOTCAMP
-Java bootcamp
+Repositorio para salvar os projetos desenvolvidos no bootcamp Java Santander/DIO
