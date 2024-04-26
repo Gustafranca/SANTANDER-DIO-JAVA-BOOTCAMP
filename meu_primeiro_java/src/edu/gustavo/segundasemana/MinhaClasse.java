@@ -1,3 +1,4 @@
+package edu.gustavo.segundasemana;
 public class MinhaClasse {
 
     public static void main(String [] args){
@@ -11,7 +12,7 @@ public class MinhaClasse {
         }
 
     public static String nomeCompleto(String primeiroNome, String segundoNome){
-        return primeiroNome.concat(" ").concat(segundoNome);
+        return "Resultado do metodo " + primeiroNome.concat(" ").concat(segundoNome);
     }
 
 }
