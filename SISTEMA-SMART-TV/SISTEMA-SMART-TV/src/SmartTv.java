@@ -10,6 +10,7 @@ public class SmartTv {
         System.out.println("Quer ligar a TV (S/N)");   
         Scanner sc = new Scanner(System.in);    
         char c = sc.next().charAt(0);
+        sc.close();
         if(c == 'S'){
             ligada = true;
         }else if(c == 'N'){
@@ -24,6 +25,7 @@ public class SmartTv {
         System.out.println("Deseja modificar o volume? (S/N)");
         Scanner sc = new Scanner(System.in);    
         char c = sc.next().charAt(0);
+        sc.close();
         if(c == 'S'){
             System.out.println("Novo volume: ");
             volume = sc.nextInt();
@@ -39,6 +41,7 @@ public class SmartTv {
         System.out.println("Deseja modificar o canal? (S/N)");
         Scanner sc = new Scanner(System.in);    
         char c = sc.next().charAt(0);
+        sc.close();
         if(c == 'S'){
             System.out.println("Novo canal: ");
             canal = sc.nextInt();
