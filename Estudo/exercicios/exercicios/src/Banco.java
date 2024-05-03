@@ -5,12 +5,11 @@ public class Banco {
          Scanner scanner = new Scanner(System.in); 
          double saldo = 0;
          double saque = 0; 
-         
+         scanner.close();
         // Loop infinito para manter o programa em execução até que o usuário decida sair
         while (true) { 
             
             int opcao = scanner.nextInt(); 
-        // TODO: Implemente as condições necessárias para avaliaa a opção escolhida:
         // Dica: Utilze o switch/case para o programa realizar as operações escolhidas pelo usuário.
             switch(opcao){
                 case 1:
