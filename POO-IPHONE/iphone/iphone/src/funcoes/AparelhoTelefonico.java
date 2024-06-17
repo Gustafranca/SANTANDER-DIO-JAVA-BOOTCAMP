@@ -1,5 +1,13 @@
+package funcoes;
 public class AparelhoTelefonico {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+    public void ligar(String numero){
+        System.out.println("Ligando para: " + numero);
+    }
+    public void atender(){
+        System.out.println("Atendida");
+
+    }
+    public void iniciarCorreioVoz(){
+        System.out.println("Iniciando correio de voz");
     }
 }
