@@ -1,7 +1,4 @@
-import apps.ServicoMensagemInstantanea;
-
 public class MSNMessenger extends ServicoMensagemInstantanea{
-
     @Override
     public void enviarMensagem() {
         System.out.println("Eviando mensagem pelo MSN");
@@ -10,7 +7,5 @@ public class MSNMessenger extends ServicoMensagemInstantanea{
     @Override
     public void receberMensagem() {
         System.out.println("Recebendo mensagem pelo MSN");
-
-}
-
+    }
 }
